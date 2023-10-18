@@ -1,0 +1,8 @@
+[workspace]
+members = [
+   "everstrs",
+   "blah",
+]
+
+[workspace.dependencies]
+everstrs = { path = "./everstrs" }
